@@ -4,13 +4,14 @@ body{
   text-align: center;
 }
 
-h1,p{
+h1,p,h3{
    color: white;
    font-style: italic;
    font-family: sans-serif;
 }
 
 input{
+  text-align: center;
   padding: 10px 50px;
   border-radius: 10px;
   border-style: none;
@@ -27,4 +28,16 @@ button{
 }
 button:hover{
    background-color: rgba(111, 38, 111, 0.6) ;
+}
+
+#resposta {
+  margin-top: 20px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
 }
